@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+    font-family: 'Patrick Hand', cursive !important;
+}
+
+.md-typeset table td, 
+.md-typeset table th,
+div[style*="font-family"] {
+    font-size: 20px;
+}
+
+h1, h2, h3, h4 {
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 25px;
+    color: #ffffff !important;
+}
+
+a {
+    color: #0099ff !important;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5rem !important;
+    font-weight: bold;
+}
+
+body {
+    background-image: url('../assets/banner1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+[data-md-color-scheme="slate"] body {
+    background-image: url('../assets/banner1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.md-tabs__link {
+    color: #ffffff !important;
+    transition: color 0.2s ease, transform 0.2s ease !important;
+}
+
+.md-nav__list {
+    padding: 0 10px !important;
+}
+
+.md-nav__item {
+    margin-bottom: 5px !important;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.md-nav__link {
+    padding: 8px 12px !important;
+    border-radius: 6px !important;
+    background-color: rgba(30, 30, 40, 0.85) !important;
+    box-shadow: none !important;
+    transition: color 0.2s ease, transform 0.2s ease !important;
+}
+
+.md-nav__link--active, 
+.md-nav__link:hover {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+    box-shadow: none !important;
+}
+
+.md-nav__link:hover {
+    color: #56bfff !important;
+    transform: translateX(5px);
+}
+
+.md-nav__link--active {
+    font-weight: bold !important;
+    color: #56bfff !important;
+    border-left: 3px solid #56bfff;
+    padding-left: 9px !important;
+}
+
+.md-nav__title {
+    font-family: 'Patrick Hand', cursive !important;
+    font-size: 1.1rem !important;
+    color: #ffffff !important;
+    padding: 10px 12px !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.md-header {
+    box-shadow: none !important;
+}
+
+.md-grid {
+    max-width: 95% !important;
+}
+
+.md-content {
+    max-width: none !important;
+    background-color: rgba(30, 30, 40, 0.85) !important;
+    border-radius: 10px;
+}
+
+.md-content__inner {
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.md-typeset table td:first-child {
+    min-width: 180px;
+}
+
+.md-typeset table {
+    margin: 20px auto !important;
+    border-collapse: separate !important;
+    border-spacing: 15px !important;
+}
+
+.md-typeset table img {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.md-typeset table td {
+    vertical-align: top !important;
+    line-height: 1.6;
+}
+
+.md-typeset table td ul {
+    margin-left: 0;
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+.gojo-glow {
+    color: #56bfff;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(86, 191, 255, 0.8), 0 0 20px rgba(86, 191, 255, 0.4);
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.gojo-glow:hover {
+    text-decoration: underline;
+}
+
+.gojo-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    filter: drop-shadow(0 0 5px rgba(86, 191, 255, 0.8));
+}
+
+.sukuna-glow {
+    color: #000000 !important;
+    font-family: 'Patrick Hand', cursive !important;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+    text-shadow: 
+        0 0 10px rgba(255, 49, 49, 0.9),
+        0 0 20px rgba(255, 49, 49, 0.6),
+        0 0 30px rgba(255, 49, 49, 0.4);
+    transition: 0.3s ease-in-out;
+}
+
+
+.sukuna-glow:hover {
+    filter: brightness(1.2);
+    text-shadow: 0 0 15px rgba(255, 49, 49, 1);
+}
+
+.sukuna-icon {
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+    filter: drop-shadow(0 0 5px rgba(255, 49, 49, 0.8));
+}
+

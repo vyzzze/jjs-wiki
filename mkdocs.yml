@@ -1,3 +1,35 @@
-site_name: My Docs
+site_name: "Jujutsu Shenanigans Wiki"
+site_description: "A better alternative to Fandom."
+site_author: "vyze"
+
 theme:
   name: material
+  palette: 
+    scheme: slate
+    primary: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.share
+  favicon: assets/logo.ico
+  logo: assets/logo.png
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Characters: 
+      - Overview: characters.md
+      - Honored One: characters/honored-one.md
+      - Vessel: characters/vessel.md
+  - Game Controls: game-controls.md
+  - Game Passes: game-passes.md
+  - Ingame Shop: ingame-shop.md
+  - Builder Mode:
+      - Overview: builder-mode.md
+      - Moveset Builder: builder-mode/moveset-builder.md
+  - Update Logs: update-logs.md
+
+plugins:
+  - search
