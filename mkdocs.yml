@@ -23,12 +23,51 @@ nav:
       - Overview: characters.md
       - Honored One: characters/honored-one.md
       - Vessel: characters/vessel.md
-  - Game Controls: game-controls.md
+      - Restless Gambler: characters/restless-gambler.md
+      - Ten Shadows: characters/ten-shadows.md
+      - Mahoraga: characters/mahoraga.md
+      - Perfection: characters/perfection.md
+      - Blood Manipulator: characters/blood-manipulator.md
+      - Switcher: characters/switcher.md
+      - Defense Attorney: characters/defense-attorney.md
+      - Cursed Partners: characters/cursed-partners.md
+      - Head of the Hei: characters/head-of-the-hei.md
+      - Puppet Master: characters/puppet-master.md
+      - Salaryman: characters/salaryman.md
+      - Locust Guy: characters/locust-guy.md
+      - Star Rage: characters/star-rage.md
+      - Aspiring Mangaka: characters/aspiring-mangaka.md
+      - Strongest of History: characters/strongest-of-history.md
+      - Monkey Kid: characters/monkey-kid.md
+      - Super TZE: characters/super-tze.md
+      - Mokou: characters/mokou.md
+  - Game Modes: game-modes.md
+  - Game Controls:
+      - Overwiev: game-controls.md
+      - Domain Expansion: domain.md
+      - Combos: combos.md
+      - Tips: tips.md
+      - Techs: techs.md
   - Game Passes: game-passes.md
-  - Ingame Shop: ingame-shop.md
-  - Builder Mode:
-      - Overview: builder-mode.md
-      - Moveset Builder: builder-mode/moveset-builder.md
+  - Settings: settings.md
+  - Achievements: achievements.md
+  - Titles: titles.md
+  - Ingame Shop:
+      - Overwiev: ingame-shop.md
+      - Emotes: emotes.md
+      - Victory Flashes: victory-flashes.md
+      - UGC: ugc.md
+      - Codes: codes.md
+  - Private Servers:
+      - Overview: private-servers.md
+      - Build Mode: build-mode.md
+      - Skill Builder: build-mode/skill-builder.md
+  - Map: 
+      - Overwiev: map.md
+      - Dummy: dummy.md
+      - Items: items.md
+      - Interactables: interactables.md
+  - Miscellaneous: misc.md
   - Update Logs: update-logs.md
 
 plugins:
